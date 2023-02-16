@@ -31,7 +31,16 @@ module.exports = {
       type: 'category',
       label: 'zkApp Developers',
       items: [
-        'zkapps/index',
+        {
+          type: 'category',
+          label: 'Overview',
+          items: [
+            'zkapps/index',
+            'zkapps/roadmap',
+            'zkapps/faq',
+            'zkapps/zkapps-for-ethereum-developers',
+          ],
+        },
         'zkapps/how-zkapps-work',
         'zkapps/how-to-write-a-zkapp',
         'zkapps/how-to-test-a-zkapp',
@@ -275,9 +284,6 @@ module.exports = {
             },
           ],
         },
-        'zkapps/roadmap',
-        'zkapps/faq',
-        'zkapps/zkapps-for-ethereum-developers',
       ],
     },
     {
